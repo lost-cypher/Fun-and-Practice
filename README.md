@@ -8,3 +8,4 @@ If you are hiring - I would love to hear about your offer.<br>
 
 Table of Contents:
 1.Guessmeifyoucan - You play vs the pc by guessing its randomly generated number(console)
+2.Blackjack21 - You play vs the pc in a basic blackjack game with a 52-cards deck, no stakes and no win-counter. Might enhance this in the future^^
