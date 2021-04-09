@@ -94,11 +94,11 @@ def players_turn(p,d):
         return 'done'
 
 def setup(p,d):
-    #we all start at the same line
-    d.append(pick_and_delete())
-    p.append(pick_and_delete())
-    d.append(pick_and_delete())
-    p.append(pick_and_delete())
+    #we all have to start somewhere
+    for i in range(2):
+        d.append(pick_and_delete())
+        p.append(pick_and_delete())
+        
     dealer_done = False
     if chck_win(p,d) == True:
         return 
